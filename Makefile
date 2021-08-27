@@ -25,7 +25,4 @@ test:
 server:
 	go run main.go
 
-mock:
-	mockgen -package mockdb -destination db/mock/store.go wizeline-go-bootcamp/db/sqlc Store
-
-.PHONY: db createdb dropdb miup midown sqlc test server mock
+.PHONY: db createdb dropdb miup midown sqlc test server

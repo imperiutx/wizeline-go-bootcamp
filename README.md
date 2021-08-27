@@ -8,7 +8,7 @@
 
 ## How to run:
 - View Make file for commands 
-- If you want to run this project:
+- If you want to run this project, you need to dockerize Postgres by running:
     - make db //NOTE: to create a container for db
     - make createdb //NOTE: create a db in the above container
     - make miup //NOTE: migrate db 
@@ -21,4 +21,3 @@
                 "email": "anything_you_like@email.com"
             }
         - GET: localhost:8000/anything_you_like //NOTE: get created user 
-        
